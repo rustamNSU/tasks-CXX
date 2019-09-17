@@ -12,9 +12,9 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 # Enable 17 C++ standard
-set (CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_C_FLAGS -m64)
+# set(TASKS_COMPILE_FLAGS "-wall")
 set(CMAKE_CXX_FLAGS -m64)
 
 if(NOT CMAKE_BUILD_TYPE)
@@ -42,4 +42,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 
 # Commands to invoke CMakeLists.txt files in other folders
 add_subdirectory (src)
-add_subdirectory(Tests)
+add_subdirectory(Tests/WordCount)
