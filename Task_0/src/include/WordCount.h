@@ -12,8 +12,10 @@
 #include <sstream>
 #include <iostream>
 #include <algorithm>
+#include <unordered_map>
 
 using std::map;
+using std::unordered_map;
 using std::string;
 using std::vector;
 
@@ -25,6 +27,7 @@ class WordCount{
 
     private:
 
+        // map<string,int> words;
         map<string,int> words;
         int numbersOfWords;
         // vector<char> delimiters = vector<char>

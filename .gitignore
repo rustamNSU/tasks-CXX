@@ -2,3 +2,27 @@
 Task_0/.vscode/
 
 Task_0/build/
+
+*.csv
+
+Task_1/.vscode/launch.json
+
+Task_1/.vscode/
+
+Task_1/build/
+
+Task_3/.vscode/
+
+Task_3/build/
+
+Task_3/Tests/input/big.txt
+
+tutorial/SFML/build/
+
+tutorial/SFML/.vscode/
+
+Task_3/Tests/output/big.txt
+
+Task_3/Tests/output/big.bin
+
+Task_3/Tests/output/big_tree.txt
